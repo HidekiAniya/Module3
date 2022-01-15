@@ -3,9 +3,8 @@
 	margin: 0;
 }
 
-/** Header **/
 #header-nav {
-  border-radius: 0;
+  borer-radius: 0;
 	border: 0;
 }
 
@@ -18,10 +17,11 @@
 .navbar-brand h1 {
   font-size: 1.5em;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #111;
+	color: black;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
+
 }
 
 
@@ -30,8 +30,7 @@
  margin: 0px;
 }
 #nav-list a {
-  color: #EDEDED;
-  text-shadow: 1px 1px 1px #222;
+  color: black;
   font-size: 1.25em;
   font-weight: bold;
 }
@@ -47,7 +46,6 @@
   margin-top: -40px;
 }
 
-/* Color the collapsing menu buttons differently*/
 	.collapsing, .in {
 		background-color: #D9D9D9;
 		padding: 0px;
@@ -61,7 +59,7 @@
 
 
 
-/** Index Page **/
+/** Our Menu **/
 #page-header {
 	margin-top: 0px;
 	margin-bottom: 10px;
@@ -74,7 +72,7 @@
 }
 
 .content {
-	background-color: #EEEEEE;
+	background-color: #BEBEBE;
   border: 3px solid black;
   font-family: Helvetica;
   color: black;
@@ -91,7 +89,7 @@
 	font-weight: bold;
 	font-size: 2.0 em;
 }
-/** End Index Page **/
+/** End Our Menu **/
 
 /* Simple Responsive Framework. */
 .row {
@@ -105,7 +103,6 @@
 
 
 /********** Computer devices  **********/
-/* Note: We don't actually need to use these since we are using bootstrap classes*/
 @media (min-width: 992px) {
 
 }
